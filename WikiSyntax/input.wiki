@@ -1,0 +1,11 @@
+**to jest pogrubiony tekst**
+_ten tekst powinien być italickiem
+ASDasdASD
+asdADadA
+SAsdDad
+ADadSD
+
+    test
+    
+**a tu bold na zakończenie**
+
