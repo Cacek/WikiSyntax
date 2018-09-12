@@ -14,6 +14,9 @@ class WikiSyntax
         , 'italic' => array('pattern' => '/\_(.+?)\_/s', 'replacement' => '<i>$1</i>')
         , 'fourSpaces' => array('pattern' => '/[ ]{4}(.*)[ ]{4}/ms', 'replacement' => '<pre>$1</pre>')
         , 'newLine' => array('pattern' => '/\r\n/', 'replacement' => "\n")
+        , 'h1' => array('pattern' => '/^= (.+?) =$/m', 'replacement' => '<h1>$1</h1>')
+        , 'h2' => array('pattern' => '/^== (.+?) ==$/m', 'replacement' => '<h2>$1</h2>')
+        , 'h3' => array('pattern' => '/^=== (.+?) ===$/m', 'replacement' => '<h3>$1</h3>')
         );
 
     }
